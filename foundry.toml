@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+out = "out"
+ignored_warnings_from = ["src"]
+libs = ["lib", "node_modules"]
+remappings = [
+ "ds-test/=lib/forge-std/lib/ds-test/src/",
+ "forge-std/=lib/forge-std/src/",
+ "prb-math/=lib/prb-math/contracts/",
+ "abdk-math/=lib/abdk-libraries-solidity/",
+]
